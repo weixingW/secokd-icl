@@ -1,0 +1,19 @@
+task: arc
+
+config: main
+test_split: test
+full_prompt: "
+"
+full_prompt_cot: "
+"
+p1: {question: "George wants to warm his hands quickly by rubbing them. Which skin surface will produce the most heat? (A) dry palms. (B) wet palms. (C) palms covered with oil. (D) palms covered with lotion.", rational: "Dry surfaces will more likely cause more friction via rubbing than other smoother surfaces, hence dry palms will produce the most heat.", labels: "(A)"}
+p2: {question: "Which factor will most likely cause a person to develop a fever? (A) a leg muscle relaxing after exercise. (B) a bacterial population in the bloodstream. (C) several viral particles on the skin. (D) carbohydrates being digested in the stomach.", rational: "Option (B), bacterial population is the most likely cause for a person developing fever.", labels: "(B)"}
+p3: {question: "Which change in the state of water particles causes the particles to become arranged in a fixed position? (A) boiling. (B) melting. (C) freezing. (D) evaporating.", rational: "When water is freezed, the particles are arranged in a fixed position; the particles are still moving for all other options. ", labels: "(C)"}
+p4: {question: "When a switch is used in an electrical circuit, the switch can (A) cause the charge to build. (B) increase and decrease the voltage. (C) cause the current to change direction. (D) stop and start the flow of current.", rational: "The function of a switch is to start and stop the flow of a current.", labels: "(D)"}
+p5: {question: "Which of the following statements best explains why magnets usually stick to a refrigerator door? (A) The refrigerator door is smooth. (B) The refrigerator door contains iron. (C) The refrigerator door is a good conductor. (D) The refrigerator door has electric wires in it.", rational: Since iron is a ferromagnetic material that is strongly attracted to magnets, so magnets can stick to refrigerator doors that contain iron or other ferromagnetic materials.", labels: "(B)"}
+p6: {question: "Which of these do scientists offer as the most recent explanation as to why many plants and animals died out at the end of the Mesozoic era? (A) worldwide disease. (B) global mountain building. (C) rise of mammals that preyed upon plants and animals. (D) impact of an asteroid created dust that blocked the sunlight.", rational: "The most accepted and supported explanation among scientists for the mass extinction event at the end of the Mesozoic era is (D) the impact of an asteroid that created dust blocking sunlight. This event led to drastic changes in climate and ecosystems, making it impossible for many species to survive.", labels: "(D)"}
+p7: {question: "A boat is acted on by a river current flowing north and by wind blowing on its sails. The boat travels northeast. In which direction is the wind most likely applying force to the sails of the boat? (A) west. (B) east. (C) north. (D) south.", rational: "The boat travels northeast, and the river current flows north. This implies that to achieve a northeast direction, the boat must receive an additional force component to the east.", labels: "(B)"}
+p8: {question: "Which land form is the result of the constructive force of a glacier? (A) valleys carved by a moving glacier. (B) iles of rocks deposited by a melting glacier. (C) grooves created in a granite surface by a glacier. (D) bedrock hills roughened by the passing of a glacier.", rational: "The constructive process results in the accumulation of debris and rocks, contributing to the formation of new landforms such as moraines, which are essentially piles of rocks and soil deposited by glaciers.", labels: "(B)"}
+
+
+
